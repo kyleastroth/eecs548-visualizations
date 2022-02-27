@@ -2,12 +2,20 @@
 <html>
 	<head>
 		<title>EECS548 Visualizations</title>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
 	</head>
 	<body>
 		<div class="container">
     		<div class="blurb">
         		<h1>Testing!</h1>
     		</div><!-- /.blurb -->
+		<div id="viz1">
+			<script>
+				vegaEmbed("#viz1", "./viz1.json");
+			</script>
+		</div><!-- /.viz1 -->
 		</div><!-- /.container -->
 	</body>
 </html>
